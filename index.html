@@ -1,0 +1,1555 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>安安老师cos雷电将军糖心_官方影像频道|原创精品内容社区</title>
+<meta name="description" content="安安老师cos雷电将军糖心官方网站，聚焦角色还原、妆造教程与幕后创作，为二次元爱好者提供高清原创视频与温暖陪伴的创作者社区。">
+<meta name="keywords" content="安安老师cos雷电将军糖心,cosplay,角色还原,妆造教程,二次元社区">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%235b4fc9'/%3E%3Cpath d='M20 40 L32 16 L44 40 Z' fill='%23ffd166'/%3E%3Ccircle cx='32' cy='42' r='7' fill='%23fbfbfe'/%3E%3C/svg%3E">
+<style>
+:root{
+  --aa-ink:#1d1a33;
+  --aa-ink-soft:#494466;
+  --aa-muted:#7d7897;
+  --aa-primary:#5b4fc9;
+  --aa-primary-deep:#3f358f;
+  --aa-accent:#f2b234;
+  --aa-pink:#f6dfef;
+  --aa-lilac:#ece9fb;
+  --aa-surface:#fdfcff;
+  --aa-line:#e6e2f6;
+  --aa-radius:16px;
+  --aa-shadow:0 10px 30px rgba(63,53,143,.08);
+  --aa-sticky:108px;
+  --aa-font:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;
+  font-family:var(--aa-font);
+  color:var(--aa-ink);
+  background:linear-gradient(180deg,#fbfaff 0%,#f6f3ff 42%,#fdfcff 100%);
+  line-height:1.75;
+  font-size:16px;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+ul,ol{margin:0;padding:0;list-style:none;}
+h1,h2,h3,h4,p{margin:0;}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit;}
+
+.aa-skip{position:absolute;left:-9999px;top:0;background:var(--aa-primary);color:#fff;padding:10px 16px;z-index:999;border-radius:0 0 8px 0;}
+.aa-skip:focus{left:0;}
+
+/* ===== 吸顶区 S1 ===== */
+.aa-stickybar{
+  position:sticky;top:0;z-index:120;
+  backdrop-filter:blur(10px);
+  background:rgba(253,252,255,.92);
+  border-bottom:1px solid var(--aa-line);
+}
+.aa-notice{
+  display:flex;align-items:center;gap:12px;
+  background:linear-gradient(90deg,#3f358f 0%,#5b4fc9 55%,#7a68e0 100%);
+  color:#f4f1ff;font-size:13.5px;
+  padding:8px 20px;
+  overflow:hidden;
+}
+.aa-notice-tag{
+  flex:none;background:var(--aa-accent);color:#2a2140;font-weight:700;
+  padding:2px 9px;border-radius:20px;font-size:12px;letter-spacing:.5px;
+}
+.aa-notice-roll{flex:1;min-width:0;position:relative;height:24px;overflow:hidden;}
+.aa-notice-item{
+  position:absolute;inset:0;display:flex;align-items:center;gap:6px;
+  white-space:nowrap;text-overflow:ellipsis;overflow:hidden;
+  opacity:0;transform:translateY(100%);transition:opacity .5s,transform .5s;
+}
+.aa-notice-item.is-active{opacity:1;transform:translateY(0);}
+.aa-notice-item b{color:#ffd77a;font-weight:600;}
+.aa-notice-more{flex:none;font-size:12.5px;color:#d9d2ff;border-bottom:1px dashed rgba(255,255,255,.5);}
+.aa-notice-more:hover{color:#fff;}
+
+.aa-header{
+  max-width:1220px;margin:0 auto;
+  display:flex;align-items:center;gap:20px;
+  padding:12px 20px;
+}
+.aa-brand{display:flex;align-items:center;gap:10px;flex:none;}
+.aa-brand-mark{
+  width:38px;height:38px;border-radius:12px;flex:none;
+  background:conic-gradient(from 210deg,#5b4fc9,#8a7cf0,#f2b234,#5b4fc9);
+  display:grid;place-items:center;color:#fff;font-weight:800;font-size:15px;
+  box-shadow:0 6px 16px rgba(91,79,201,.3);
+}
+.aa-brand-name{font-weight:800;font-size:17px;letter-spacing:.5px;line-height:1.2;}
+.aa-brand-sub{font-size:11.5px;color:var(--aa-muted);letter-spacing:1.4px;}
+.aa-nav{display:flex;gap:4px;margin-left:8px;flex-wrap:wrap;}
+.aa-nav a{
+  font-size:14px;padding:7px 11px;border-radius:9px;color:var(--aa-ink-soft);
+  transition:.2s;white-space:nowrap;
+}
+.aa-nav a:hover,.aa-nav a:focus-visible{background:var(--aa-lilac);color:var(--aa-primary);}
+.aa-head-tools{margin-left:auto;display:flex;align-items:center;gap:10px;}
+.aa-search{position:relative;display:flex;align-items:center;}
+.aa-search input{
+  width:190px;padding:9px 36px 9px 14px;border-radius:22px;
+  border:1px solid var(--aa-line);background:#fff;font-size:13.5px;color:var(--aa-ink);
+  outline:none;transition:.2s;
+}
+.aa-search input:focus{border-color:var(--aa-primary);box-shadow:0 0 0 3px rgba(91,79,201,.12);width:230px;}
+.aa-search button{position:absolute;right:6px;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;color:var(--aa-primary);}
+.aa-search-result{
+  position:absolute;top:calc(100% + 8px);right:0;width:290px;background:#fff;
+  border:1px solid var(--aa-line);border-radius:14px;box-shadow:var(--aa-shadow);
+  padding:10px;font-size:13px;display:none;z-index:60;
+}
+.aa-search-result.is-open{display:block;}
+.aa-search-result li{padding:7px 9px;border-radius:8px;color:var(--aa-ink-soft);}
+.aa-search-result li:hover{background:var(--aa-lilac);color:var(--aa-primary);}
+.aa-search-result .aa-sr-empty{color:var(--aa-muted);font-size:12.5px;}
+.aa-btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:7px;
+  padding:9px 18px;border-radius:22px;font-size:14px;font-weight:600;
+  transition:.2s;white-space:nowrap;
+}
+.aa-btn-primary{background:linear-gradient(120deg,#5b4fc9,#7a68e0);color:#fff;box-shadow:0 8px 20px rgba(91,79,201,.28);}
+.aa-btn-primary:hover{transform:translateY(-2px);box-shadow:0 12px 26px rgba(91,79,201,.36);}
+.aa-btn-ghost{border:1px solid var(--aa-line);background:#fff;color:var(--aa-ink-soft);}
+.aa-btn-ghost:hover{border-color:var(--aa-primary);color:var(--aa-primary);}
+.aa-btn-soft{background:var(--aa-lilac);color:var(--aa-primary-deep);}
+.aa-btn-soft:hover{background:#dfd9fa;}
+.aa-navtoggle{
+  display:none;width:40px;height:40px;border-radius:11px;border:1px solid var(--aa-line);
+  background:#fff;place-items:center;flex-direction:column;gap:4px;
+}
+.aa-navtoggle span{display:block;width:17px;height:2px;background:var(--aa-ink-soft);border-radius:2px;transition:.25s;}
+.aa-navtoggle.is-open span:nth-child(1){transform:translateY(6px) rotate(45deg);}
+.aa-navtoggle.is-open span:nth-child(2){opacity:0;}
+.aa-navtoggle.is-open span:nth-child(3){transform:translateY(-6px) rotate(-45deg);}
+
+section[id]{scroll-margin-top:var(--aa-sticky);}
+
+/* ===== 通用容器 ===== */
+.aa-wrap{max-width:1220px;margin:0 auto;padding:0 20px;}
+.aa-section{padding:56px 0;position:relative;}
+.aa-sec-head{display:flex;align-items:flex-end;gap:16px;flex-wrap:wrap;margin-bottom:26px;}
+.aa-eyebrow{
+  font-size:12px;letter-spacing:2.4px;color:var(--aa-primary);
+  font-weight:700;text-transform:uppercase;display:inline-flex;align-items:center;gap:8px;
+}
+.aa-eyebrow::before{content:"";width:22px;height:2px;background:var(--aa-accent);border-radius:2px;}
+.aa-h2{font-size:clamp(22px,2.6vw,30px);line-height:1.3;letter-spacing:.5px;font-weight:800;}
+.aa-h2 em{font-style:normal;color:var(--aa-primary);}
+.aa-sec-desc{color:var(--aa-muted);font-size:14.5px;max-width:640px;}
+.aa-sec-head .aa-sec-desc{margin-top:2px;flex:1 1 320px;}
+.aa-h3{font-size:17.5px;font-weight:700;line-height:1.45;}
+.aa-tag{
+  display:inline-block;font-size:11.5px;padding:2px 9px;border-radius:20px;
+  background:var(--aa-lilac);color:var(--aa-primary-deep);font-weight:600;
+}
+.aa-tag-gold{background:#fdf1d5;color:#8a6207;}
+.aa-tag-pink{background:#fbe4f1;color:#9c2f6c;}
+
+/* ===== 首屏 S2（全幅主视觉背景与浮动文字） ===== */
+.aa-hero{
+  position:relative;overflow:hidden;
+  background:
+    radial-gradient(900px 420px at 82% 12%,rgba(242,178,52,.22),transparent 62%),
+    radial-gradient(760px 480px at 12% 88%,rgba(122,104,224,.34),transparent 66%),
+    linear-gradient(135deg,#241d4f 0%,#3a2f86 48%,#5b4fc9 100%);
+  color:#f4f1ff;
+}
+.aa-hero-grid-bg{
+  position:absolute;inset:0;opacity:.16;pointer-events:none;
+  background-image:linear-gradient(rgba(255,255,255,.35) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.35) 1px,transparent 1px);
+  background-size:64px 64px;
+  mask-image:radial-gradient(circle at 50% 40%,#000 30%,transparent 78%);
+}
+.aa-hero-inner{
+  position:relative;max-width:1220px;margin:0 auto;padding:64px 20px 72px;
+  display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:44px;align-items:center;
+}
+.aa-hero-kicker{
+  display:inline-flex;align-items:center;gap:9px;font-size:12.5px;letter-spacing:1.5px;
+  background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);
+  padding:6px 14px;border-radius:22px;color:#e9e4ff;backdrop-filter:blur(4px);
+}
+.aa-hero-kicker i{width:7px;height:7px;border-radius:50%;background:var(--aa-accent);box-shadow:0 0 0 4px rgba(242,178,52,.25);}
+.aa-hero h1{
+  font-size:clamp(30px,4.4vw,50px);line-height:1.18;letter-spacing:.5px;
+  font-weight:900;margin:18px 0 6px;
+}
+.aa-hero h1 .aa-grad{
+  background:linear-gradient(100deg,#ffd77a,#ffb0d8 55%,#a8b6ff);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.aa-hero-slogan{font-size:15px;color:#cfc6ff;letter-spacing:2px;font-weight:600;margin-bottom:16px;}
+.aa-hero-about{font-size:14.8px;color:#e2ddff;max-width:560px;}
+.aa-hero-about b{color:#fff;}
+.aa-hero-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:24px 0 26px;max-width:520px;}
+.aa-stat{
+  background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);
+  border-radius:14px;padding:12px 14px;backdrop-filter:blur(6px);
+}
+.aa-stat-num{font-size:23px;font-weight:900;color:#fff;line-height:1.2;letter-spacing:.5px;}
+.aa-stat-num small{font-size:12px;font-weight:600;color:#ffd77a;margin-left:2px;}
+.aa-stat-label{font-size:12px;color:#cdc6f5;letter-spacing:.8px;}
+.aa-hero-actions{display:flex;gap:12px;flex-wrap:wrap;}
+.aa-hero .aa-btn-ghost{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.38);color:#f2eeff;}
+.aa-hero .aa-btn-ghost:hover{background:rgba(255,255,255,.2);border-color:#fff;color:#fff;}
+.aa-hero-visual{position:relative;}
+.aa-hero-visual img{
+  width:100%;aspect-ratio:4/4.4;object-fit:cover;border-radius:22px;
+  border:1px solid rgba(255,255,255,.3);box-shadow:0 30px 60px rgba(12,8,40,.5);
+}
+.aa-hero-badge{
+  position:absolute;left:-14px;bottom:26px;background:#fff;color:var(--aa-ink);
+  border-radius:14px;padding:10px 15px;box-shadow:0 14px 30px rgba(12,8,40,.35);
+  display:flex;align-items:center;gap:10px;font-size:12.5px;
+}
+.aa-hero-badge strong{display:block;font-size:14px;color:var(--aa-primary-deep);}
+.aa-hero-badge .aa-badge-ico{
+  width:34px;height:34px;border-radius:10px;background:linear-gradient(140deg,#f2b234,#f77ab0);
+  display:grid;place-items:center;color:#3a2f86;font-weight:900;font-size:15px;flex:none;
+}
+.aa-hero-marquee{
+  position:relative;border-top:1px solid rgba(255,255,255,.18);
+  display:flex;overflow:hidden;padding:11px 0;font-size:13px;color:#d4ccff;
+}
+.aa-hero-marquee-in{display:flex;gap:44px;white-space:nowrap;animation:aa-marq 26s linear infinite;}
+.aa-hero-marquee-in span{display:inline-flex;align-items:center;gap:9px;}
+.aa-hero-marquee-in span::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--aa-accent);}
+@keyframes aa-marq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* ===== 按钮/操作 ===== */
+.aa-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px;}
+.aa-act{
+  display:inline-flex;align-items:center;gap:6px;font-size:12.5px;
+  padding:5px 11px;border-radius:18px;border:1px solid var(--aa-line);
+  background:#fff;color:var(--aa-ink-soft);transition:.18s;
+}
+.aa-act:hover{border-color:var(--aa-primary);color:var(--aa-primary);}
+.aa-act.is-fav{background:#fdeaf4;border-color:#f4b8d9;color:#c13c7f;}
+.aa-act svg{width:14px;height:14px;}
+
+/* ===== S3 视频区（两列图文卡片 + 文字列表） ===== */
+.aa-spotlight{
+  display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:24px;
+  align-items:stretch;
+}
+.aa-feature{
+  background:#fff;border-radius:var(--aa-radius);overflow:hidden;
+  border:1px solid var(--aa-line);box-shadow:var(--aa-shadow);
+  display:flex;flex-direction:column;transition:.24s;
+}
+.aa-feature:hover{transform:translateY(-4px);box-shadow:0 20px 44px rgba(63,53,143,.16);}
+.aa-feature-media{position:relative;}
+.aa-feature-media img{width:100%;aspect-ratio:16/9;object-fit:cover;}
+.aa-play{
+  position:absolute;inset:0;display:grid;place-items:center;
+  background:linear-gradient(180deg,rgba(31,24,70,0) 40%,rgba(31,24,70,.42));
+}
+.aa-play i{
+  width:58px;height:58px;border-radius:50%;display:grid;place-items:center;
+  background:rgba(255,255,255,.92);color:var(--aa-primary-deep);
+  box-shadow:0 10px 24px rgba(0,0,0,.28);transition:.24s;
+}
+.aa-feature:hover .aa-play i{transform:scale(1.08);background:#fff;}
+.aa-duration{
+  position:absolute;right:12px;bottom:12px;background:rgba(26,20,58,.78);color:#fff;
+  font-size:12px;padding:2px 9px;border-radius:8px;letter-spacing:.4px;
+}
+.aa-feature-body{padding:20px 22px 22px;}
+.aa-feature-meta{display:flex;align-items:center;gap:10px;font-size:12.5px;color:var(--aa-muted);flex-wrap:wrap;}
+.aa-feature-body .aa-h3{margin:9px 0 8px;font-size:20px;}
+.aa-feature-body p{font-size:14px;color:var(--aa-ink-soft);}
+.aa-feature-foot{
+  display:flex;align-items:center;gap:14px;margin-top:14px;padding-top:14px;
+  border-top:1px dashed var(--aa-line);font-size:12.5px;color:var(--aa-muted);flex-wrap:wrap;
+}
+.aa-mini-avatar{
+  width:26px;height:26px;border-radius:50%;display:grid;place-items:center;
+  font-size:12px;font-weight:800;color:#fff;flex:none;
+}
+.aa-vlist{display:flex;flex-direction:column;gap:12px;}
+.aa-vitem{
+  background:#fff;border:1px solid var(--aa-line);border-radius:14px;
+  padding:15px 17px;transition:.2s;
+}
+.aa-vitem:hover{border-color:#c6bcf6;background:#fcfbff;transform:translateX(3px);}
+.aa-vitem-top{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--aa-muted);flex-wrap:wrap;}
+.aa-vitem .aa-h3{font-size:15.5px;margin:6px 0 5px;}
+.aa-vitem p{font-size:13px;color:var(--aa-ink-soft);}
+.aa-vitem .aa-actions{margin-top:9px;}
+
+/* ===== 视频三列带缩略图（少量） ===== */
+.aa-grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;}
+.aa-vcard{
+  background:#fff;border:1px solid var(--aa-line);border-radius:var(--aa-radius);
+  overflow:hidden;display:flex;flex-direction:column;transition:.24s;
+}
+.aa-vcard:hover{transform:translateY(-4px);box-shadow:0 18px 38px rgba(63,53,143,.14);border-color:#cdc3f8;}
+.aa-vcard img{width:100%;aspect-ratio:16/10;object-fit:cover;}
+.aa-vcard-body{padding:15px 17px 17px;display:flex;flex-direction:column;gap:6px;flex:1;}
+.aa-vcard-body .aa-h3{font-size:15.5px;}
+.aa-vcard-body p{font-size:13px;color:var(--aa-ink-soft);flex:1;}
+
+/* ===== S4 专题 ===== */
+.aa-topics{
+  display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);gap:20px;
+}
+.aa-topic{
+  background:linear-gradient(165deg,#fff,#f8f6ff 70%,#f1edfd);
+  border:1px solid var(--aa-line);border-radius:var(--aa-radius);
+  padding:22px;display:flex;flex-direction:column;gap:12px;transition:.24s;
+}
+.aa-topic:hover{transform:translateY(-4px);box-shadow:var(--aa-shadow);}
+.aa-topic-head{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;}
+.aa-topic-status{
+  font-size:11.5px;font-weight:700;padding:2px 9px;border-radius:20px;
+  background:#e5f6ec;color:#1f7a4a;white-space:nowrap;flex:none;
+}
+.aa-topic-status.aa-wip{background:#fdf1d5;color:#8a6207;}
+.aa-topic ul{display:flex;flex-direction:column;gap:8px;}
+.aa-topic ul li{
+  font-size:13.2px;color:var(--aa-ink-soft);display:flex;gap:8px;align-items:baseline;
+}
+.aa-topic ul li::before{content:"";flex:none;width:5px;height:5px;border-radius:50%;background:var(--aa-primary);opacity:.6;transform:translateY(-2px);}
+.aa-topic .aa-topic-num{font-size:12px;color:var(--aa-muted);}
+.aa-topic-wide{
+  grid-column:span 2;display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);
+  gap:0;padding:0;overflow:hidden;
+}
+.aa-topic-wide img{width:100%;height:100%;min-height:220px;object-fit:cover;}
+.aa-topic-wide .aa-topic-inner{padding:22px;display:flex;flex-direction:column;gap:12px;}
+
+/* ===== 深度解析 S7（图文交替单列，约900字） ===== */
+.aa-deep{background:#fff;border:1px solid var(--aa-line);border-radius:22px;padding:34px;box-shadow:var(--aa-shadow);}
+.aa-deep-lead{font-size:15.5px;color:var(--aa-ink-soft);border-left:3px solid var(--aa-accent);padding-left:16px;margin-bottom:22px;}
+.aa-deep-block{margin-top:26px;}
+.aa-deep-block .aa-h3{display:flex;align-items:center;gap:10px;margin-bottom:8px;}
+.aa-deep-block .aa-h3 span{
+  flex:none;width:28px;height:28px;border-radius:9px;display:grid;place-items:center;
+  background:var(--aa-lilac);color:var(--aa-primary-deep);font-size:13px;font-weight:800;
+}
+.aa-deep-block p{font-size:14.8px;color:var(--aa-ink-soft);margin-bottom:10px;}
+.aa-deep-quote{
+  margin:22px 0 0;background:linear-gradient(120deg,#f7f4ff,#fdf7ec);
+  border-radius:14px;padding:18px 20px;font-size:14.5px;color:var(--aa-ink);
+  border:1px solid var(--aa-line);
+}
+.aa-deep-quote b{color:var(--aa-primary-deep);}
+
+/* ===== S5 创作者（双列简介） ===== */
+.aa-authors{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;}
+.aa-author{
+  display:flex;gap:16px;background:#fff;border:1px solid var(--aa-line);
+  border-radius:var(--aa-radius);padding:20px;transition:.22s;
+}
+.aa-author:hover{border-color:#c9bff7;box-shadow:var(--aa-shadow);}
+.aa-author-avatar{
+  width:60px;height:60px;border-radius:18px;flex:none;display:grid;place-items:center;
+  font-size:22px;font-weight:900;color:#fff;box-shadow:0 8px 18px rgba(63,53,143,.22);
+}
+.aa-author-info{min-width:0;flex:1;}
+.aa-author-name{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-weight:800;font-size:16px;}
+.aa-author-field{font-size:12.5px;color:var(--aa-primary);font-weight:600;margin-top:1px;}
+.aa-author-nums{display:flex;gap:14px;font-size:12px;color:var(--aa-muted);margin:5px 0 7px;}
+.aa-author-nums b{color:var(--aa-ink);}
+.aa-author p{font-size:13.2px;color:var(--aa-ink-soft);}
+.aa-author .aa-act{margin-top:9px;}
+
+/* ===== S6 评价（双列短评） ===== */
+.aa-reviews{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;}
+.aa-review{
+  background:#fff;border:1px solid var(--aa-line);border-radius:14px;padding:18px 20px;
+  position:relative;
+}
+.aa-review::before{
+  content:"“";position:absolute;right:16px;top:2px;font-size:44px;line-height:1;
+  color:var(--aa-lilac);font-family:Georgia,serif;
+}
+.aa-review-top{display:flex;align-items:center;gap:10px;margin-bottom:8px;}
+.aa-review-name{font-size:13.5px;font-weight:700;}
+.aa-review-time{font-size:11.5px;color:var(--aa-muted);margin-left:auto;}
+.aa-review p{font-size:13.4px;color:var(--aa-ink-soft);}
+.aa-stars{color:var(--aa-accent);font-size:12px;letter-spacing:1px;}
+
+/* ===== 数据榜单 / 企业动态 / FAQ / 合作 ===== */
+.aa-split{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:24px;align-items:start;}
+.aa-rank{background:#fff;border:1px solid var(--aa-line);border-radius:var(--aa-radius);padding:22px;}
+.aa-rank ol{display:flex;flex-direction:column;gap:2px;}
+.aa-rank li{
+  display:flex;align-items:center;gap:12px;padding:10px 8px;border-radius:10px;font-size:13.6px;
+  transition:.16s;
+}
+.aa-rank li:hover{background:#faf8ff;}
+.aa-rank li .aa-rank-no{
+  flex:none;width:24px;height:24px;border-radius:8px;display:grid;place-items:center;
+  font-size:12px;font-weight:800;background:var(--aa-lilac);color:var(--aa-primary-deep);
+}
+.aa-rank li:nth-child(1) .aa-rank-no{background:linear-gradient(140deg,#f2b234,#f7a03a);color:#3a2f86;}
+.aa-rank li:nth-child(2) .aa-rank-no{background:#e2e0f7;color:#4a3f9e;}
+.aa-rank li:nth-child(3) .aa-rank-no{background:#f8e6d2;color:#9c5a1e;}
+.aa-rank-title{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.aa-rank-num{font-size:12px;color:var(--aa-muted);flex:none;}
+
+.aa-timeline{background:#fff;border:1px solid var(--aa-line);border-radius:var(--aa-radius);padding:22px;}
+.aa-timeline ul{display:flex;flex-direction:column;gap:14px;position:relative;padding-left:16px;}
+.aa-timeline ul::before{content:"";position:absolute;left:4px;top:6px;bottom:6px;width:2px;background:var(--aa-line);}
+.aa-timeline li{position:relative;font-size:13.4px;color:var(--aa-ink-soft);}
+.aa-timeline li::before{
+  content:"";position:absolute;left:-16px;top:8px;width:8px;height:8px;border-radius:50%;
+  background:var(--aa-primary);box-shadow:0 0 0 3px #eeebfd;
+}
+.aa-timeline time{display:block;font-size:11.5px;color:var(--aa-muted);letter-spacing:.6px;}
+
+.aa-faq{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;}
+.aa-faq details{
+  background:#fff;border:1px solid var(--aa-line);border-radius:12px;
+  padding:14px 18px;transition:.2s;
+}
+.aa-faq details[open]{border-color:#c6bcf6;background:#fdfcff;box-shadow:var(--aa-shadow);}
+.aa-faq summary{
+  cursor:pointer;font-size:14px;font-weight:700;list-style:none;display:flex;
+  align-items:center;gap:10px;
+}
+.aa-faq summary::-webkit-details-marker{display:none;}
+.aa-faq summary::after{
+  content:"+";margin-left:auto;font-weight:700;color:var(--aa-primary);font-size:17px;
+  transition:.2s;flex:none;
+}
+.aa-faq details[open] summary::after{content:"–";}
+.aa-faq p{font-size:13.2px;color:var(--aa-ink-soft);margin-top:9px;}
+
+.aa-partners{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:24px;}
+.aa-partner{
+  background:#fff;border:1px solid var(--aa-line);border-radius:12px;padding:16px 12px;
+  text-align:center;font-size:13px;font-weight:700;color:var(--aa-ink-soft);
+  transition:.2s;letter-spacing:.5px;
+}
+.aa-partner:hover{border-color:#c6bcf6;color:var(--aa-primary);transform:translateY(-2px);}
+.aa-partner small{display:block;font-weight:400;font-size:11.5px;color:var(--aa-muted);margin-top:3px;letter-spacing:0;}
+
+/* ===== 投稿 CTA ===== */
+.aa-cta{
+  background:linear-gradient(120deg,#2c2463,#4a3ea8 62%,#6b5ad6);
+  color:#f2eeff;border-radius:22px;padding:34px 32px;
+  display:flex;align-items:center;gap:24px;flex-wrap:wrap;
+  box-shadow:0 22px 48px rgba(44,36,99,.28);
+}
+.aa-cta h2{font-size:clamp(20px,2.4vw,26px);font-weight:800;letter-spacing:.5px;}
+.aa-cta p{font-size:14px;color:#cfc6ff;margin-top:6px;max-width:600px;}
+.aa-cta-actions{margin-left:auto;display:flex;gap:12px;flex-wrap:wrap;}
+.aa-cta .aa-btn-ghost{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.4);color:#fff;}
+.aa-cta .aa-btn-ghost:hover{background:rgba(255,255,255,.22);border-color:#fff;}
+.aa-cta .aa-btn-primary{background:linear-gradient(120deg,#ffd77a,#f2b234);color:#2c2463;box-shadow:0 10px 24px rgba(242,178,52,.32);}
+
+/* ===== 页脚 ===== */
+.aa-footer{background:#171331;color:#b9b2dd;padding:52px 0 0;margin-top:56px;}
+.aa-footer-grid{display:grid;grid-template-columns:minmax(0,1.5fr) repeat(3,minmax(0,1fr));gap:28px;}
+.aa-footer h3{font-size:14px;color:#fff;margin-bottom:12px;letter-spacing:1px;}
+.aa-footer li{font-size:13px;margin-bottom:8px;color:#9f97c9;}
+.aa-footer li a:hover{color:#ffd77a;}
+.aa-footer-brand{font-size:19px;font-weight:900;color:#fff;letter-spacing:.6px;display:flex;align-items:center;gap:10px;}
+.aa-footer-brand .aa-brand-mark{width:34px;height:34px;font-size:13px;border-radius:10px;}
+.aa-footer p{font-size:13px;line-height:1.9;color:#9f97c9;margin-top:12px;max-width:360px;}
+.aa-footer-bottom{
+  border-top:1px solid rgba(255,255,255,.12);margin-top:36px;padding:18px 0;
+  font-size:12.5px;color:#847bad;display:flex;gap:14px;flex-wrap:wrap;justify-content:space-between;
+}
+
+/* ===== Toast / 弹窗 / 回到顶部 ===== */
+.aa-toast{
+  position:fixed;left:50%;bottom:34px;transform:translate(-50%,20px);
+  background:#241d4f;color:#f4f1ff;padding:11px 22px;border-radius:24px;font-size:13.5px;
+  box-shadow:0 16px 36px rgba(20,14,50,.4);opacity:0;pointer-events:none;transition:.28s;z-index:300;
+  max-width:88vw;text-align:center;
+}
+.aa-toast.is-show{opacity:1;transform:translate(-50%,0);}
+.aa-modal{
+  position:fixed;inset:0;z-index:250;display:none;place-items:center;padding:20px;
+  background:rgba(24,18,52,.55);backdrop-filter:blur(3px);
+}
+.aa-modal.is-open{display:grid;}
+.aa-modal-card{
+  background:#fff;border-radius:18px;max-width:520px;width:100%;padding:26px;
+  box-shadow:0 30px 70px rgba(20,14,50,.4);max-height:86vh;overflow:auto;
+}
+.aa-modal-head{display:flex;align-items:center;gap:10px;margin-bottom:12px;}
+.aa-modal-head h3{font-size:18px;font-weight:800;}
+.aa-modal-close{
+  margin-left:auto;width:32px;height:32px;border-radius:50%;display:grid;place-items:center;
+  background:var(--aa-lilac);color:var(--aa-primary-deep);font-size:16px;font-weight:700;
+}
+.aa-modal p{font-size:13.8px;color:var(--aa-ink-soft);margin-bottom:10px;}
+.aa-modal-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px;}
+.aa-share-list{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px;}
+.aa-share-list button{
+  padding:8px 16px;border-radius:20px;background:var(--aa-lilac);color:var(--aa-primary-deep);
+  font-size:13px;font-weight:600;transition:.18s;
+}
+.aa-share-list button:hover{background:#ddd6fa;}
+.aa-totop{
+  position:fixed;right:22px;bottom:24px;width:44px;height:44px;border-radius:14px;
+  background:#fff;border:1px solid var(--aa-line);color:var(--aa-primary);
+  display:grid;place-items:center;box-shadow:0 10px 24px rgba(63,53,143,.18);
+  opacity:0;pointer-events:none;transform:translateY(10px);transition:.25s;z-index:150;
+}
+.aa-totop.is-show{opacity:1;pointer-events:auto;transform:translateY(0);}
+.aa-totop:hover{background:var(--aa-lilac);}
+
+/* ===== 响应式 ===== */
+@media (max-width:1040px){
+  .aa-hero-inner{grid-template-columns:1fr;gap:32px;padding:48px 20px 56px;}
+  .aa-hero-visual{max-width:440px;}
+  .aa-spotlight{grid-template-columns:1fr;}
+  .aa-topics{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .aa-topic-wide{grid-column:span 2;}
+  .aa-grid3{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .aa-split{grid-template-columns:1fr;}
+  .aa-footer-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+}
+@media (max-width:820px){
+  :root{--aa-sticky:100px;}
+  .aa-header{flex-wrap:wrap;gap:12px;padding:10px 16px;}
+  .aa-nav{
+    display:none;order:4;width:100%;flex-direction:column;gap:2px;
+    padding:8px 0 4px;border-top:1px solid var(--aa-line);margin-left:0;
+  }
+  .aa-nav.is-open{display:flex;}
+  .aa-nav a{padding:9px 10px;}
+  .aa-navtoggle{display:flex;margin-left:auto;order:3;}
+  .aa-head-tools{order:2;margin-left:auto;}
+  .aa-search input{width:132px;font-size:13px;}
+  .aa-search input:focus{width:160px;}
+  .aa-head-tools .aa-btn{padding:8px 14px;font-size:13px;}
+  .aa-search-result{width:min(280px,86vw);}
+  .aa-authors,.aa-reviews,.aa-faq{grid-template-columns:1fr;}
+  .aa-partners{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .aa-deep{padding:24px 20px;}
+  .aa-cta{padding:26px 22px;}
+  .aa-cta-actions{margin-left:0;width:100%;}
+}
+@media (max-width:620px){
+  .aa-section{padding:42px 0;}
+  .aa-wrap{padding:0 16px;}
+  .aa-hero-stats{grid-template-columns:1fr;max-width:none;}
+  .aa-hero-visual{max-width:none;}
+  .aa-topics{grid-template-columns:1fr;}
+  .aa-topic-wide{grid-column:span 1;grid-template-columns:1fr;}
+  .aa-topic-wide img{min-height:170px;}
+  .aa-grid3{grid-template-columns:1fr;}
+  .aa-footer-grid{grid-template-columns:1fr;}
+  .aa-author{flex-direction:column;gap:12px;}
+  .aa-notice{font-size:12.5px;padding:7px 14px;gap:8px;}
+  .aa-notice-more{display:none;}
+  .aa-brand-sub{display:none;}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation-duration:.001ms !important;transition-duration:.001ms !important;}
+  html{scroll-behavior:auto;}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+<a class="aa-skip" href="#aa-main">跳到主要内容</a>
+
+<!-- S1 公告条 + 页头（吸顶） -->
+<div class="aa-stickybar">
+  <div class="aa-notice" role="region" aria-label="站点公告">
+    <span class="aa-notice-tag">官方发布</span>
+    <div class="aa-notice-roll" id="aaNoticeRoll">
+      <p class="aa-notice-item is-active"><b>11月20日</b> 安安老师全新《雷电将军·霜月版》妆造全流程上线</p>
+      <p class="aa-notice-item"><b>11月18日</b> 第三届「糖心角色还原挑战」报名开启，投稿入口已开放</p>
+      <p class="aa-notice-item"><b>11月15日</b> 高清扫街花絮下载包更新，附带灯光与分镜方案</p>
+      <p class="aa-notice-item"><b>11月12日</b> 官方打假声明：认准官方正版渠道与蓝标认证创作者</p>
+    </div>
+    <a class="aa-notice-more" href="#aa-news">全部更新 ›</a>
+  </div>
+
+  <header class="aa-header">
+    <a class="aa-brand" href="#aa-top" aria-label="安安老师cos雷电将军糖心官方网站首页">
+      <span class="aa-brand-mark">安</span>
+      <span>
+        <span class="aa-brand-name">安安老师 · 糖心影像</span>
+        <span class="aa-brand-sub">TAOXIN VIDEO STUDIO</span>
+      </span>
+    </a>
+    <nav class="aa-nav" id="aaNav" aria-label="主导航">
+      <a href="#aa-top">首页</a>
+      <a href="#aa-videos">精品内容</a>
+      <a href="#aa-topics">专题企划</a>
+      <a href="#aa-deep">关键词解析</a>
+      <a href="#aa-authors">创作者</a>
+      <a href="#aa-reviews">社区口碑</a>
+      <a href="#aa-news">企业动态</a>
+      <a href="#aa-faq">常见问题</a>
+    </nav>
+    <div class="aa-head-tools">
+      <form class="aa-search" id="aaSearchForm" role="search" onsubmit="return false;">
+        <input type="search" id="aaSearchInput" placeholder="搜索教程 / 角色 / 作者" aria-label="站内搜索" autocomplete="off">
+        <button type="submit" aria-label="搜索">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+        </button>
+        <ul class="aa-search-result" id="aaSearchResult" aria-live="polite"></ul>
+      </form>
+      <button class="aa-btn aa-btn-primary" id="aaSubmitBtn" type="button">投稿入口</button>
+    </div>
+    <button class="aa-navtoggle" id="aaNavToggle" type="button" aria-expanded="false" aria-controls="aaNav" aria-label="展开导航">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+</div>
+
+<main id="aa-main">
+  <!-- S2 首屏 -->
+  <section class="aa-hero" id="aa-top">
+    <div class="aa-hero-grid-bg" aria-hidden="true"></div>
+    <div class="aa-hero-inner">
+      <div class="aa-hero-copy">
+        <span class="aa-hero-kicker"><i aria-hidden="true"></i>官方网站 · 官方发布 · 原创正版</span>
+        <h1>安安老师cos雷电将军糖心</h1>
+        <p class="aa-hero-slogan">把角色还原做成一门手艺，把陪伴做成一种长期主义</p>
+        <p class="aa-hero-about">
+          这里是<b>安安老师cos雷电将军糖心</b>的官方品牌首页。作为深耕二次元角色还原与妆造教学垂直领域的原创内容团队，我们以企业级制作标准持续运营高清影像栏目，为创作者与同好搭建一个值得信赖的内容生态：从角色定妆、妆面拆解到灯光分镜与后期调色，每一条视频都保留真实创作痕迹，也欢迎你在这里被温柔地陪伴与成长。
+        </p>
+        <div class="aa-hero-stats">
+          <div class="aa-stat">
+            <div class="aa-stat-num" data-aa-count="1860">0<small>+</small></div>
+            <div class="aa-stat-label">原创精品视频</div>
+          </div>
+          <div class="aa-stat">
+            <div class="aa-stat-num" data-aa-count="248000">0<small>+</small></div>
+            <div class="aa-stat-label">社区创作者与同好</div>
+          </div>
+          <div class="aa-stat">
+            <div class="aa-stat-num" data-aa-count="98">0<small>%</small></div>
+            <div class="aa-stat-label">口碑好评率</div>
+          </div>
+        </div>
+        <div class="aa-hero-actions">
+          <a class="aa-btn aa-btn-primary" href="#aa-videos">进入精品内容</a>
+          <a class="aa-btn aa-btn-ghost" href="#aa-authors">认识创作者</a>
+          <button class="aa-btn aa-btn-ghost" type="button" id="aaHeroShare">分享本页</button>
+        </div>
+      </div>
+      <div class="aa-hero-visual">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 560 620'%3E%3Cdefs%3E%3ClinearGradient id='sky' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23241d4f'/%3E%3Cstop offset='.55' stop-color='%235b4fc9'/%3E%3Cstop offset='1' stop-color='%23a394f0'/%3E%3C/linearGradient%3E%3ClinearGradient id='hair' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23b7a9ff'/%3E%3Cstop offset='1' stop-color='%235c4fbf'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='560' height='620' fill='url(%23sky)'/%3E%3Ccircle cx='420' cy='130' r='88' fill='%23f2b234' opacity='.28'/%3E%3Ccircle cx='420' cy='130' r='48' fill='%23ffd77a' opacity='.65'/%3E%3Cg opacity='.35'%3E%3Cpath d='M0 470 L120 380 L220 430 L340 340 L460 410 L560 350 L560 620 L0 620 Z' fill='%231a1440'/%3E%3C/g%3E%3Cpath d='M280 150 C 215 150 196 215 196 275 C 196 340 232 372 232 410 L 232 560 L 328 560 L 328 410 C 328 372 364 340 364 275 C 364 215 345 150 280 150 Z' fill='url(%23hair)'/%3E%3Cpath d='M280 198 C 250 198 238 226 238 260 C 238 296 256 318 280 318 C 304 318 322 296 322 260 C 322 226 310 198 280 198 Z' fill='%23f7e6dc'/%3E%3Cpath d='M238 246 C 244 214 260 202 280 202 C 300 202 316 214 322 246 C 314 232 300 224 280 224 C 260 224 246 232 238 246 Z' fill='%236f60cf'/%3E%3Crect x='252' y='252' width='16' height='7' rx='3.5' fill='%23403a6e'/%3E%3Crect x='292' y='252' width='16' height='7' rx='3.5' fill='%23403a6e'/%3E%3Cpath d='M268 288 Q280 296 292 288' stroke='%23c76b8f' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3Cpath d='M280 340 L 262 384 L 280 372 L 298 384 Z' fill='%23f2b234'/%3E%3Cpath d='M210 430 L 350 430 L 336 560 L 224 560 Z' fill='%232c2463'/%3E%3Cpath d='M280 430 L 268 560 L 292 560 Z' fill='%23f2b234' opacity='.85'/%3E%3Ccircle cx='120' cy='210' r='5' fill='%23ffd77a' opacity='.8'/%3E%3Ccircle cx='150' cy='320' r='3.4' fill='%23ffffff' opacity='.7'/%3E%3Ccircle cx='452' cy='420' r='4.2' fill='%23ffd77a' opacity='.7'/%3E%3C/svg%3E" alt="安安老师雷电将军霜月版角色还原定妆主视觉，紫金配色与月色背景" width="560" height="620" loading="eager" decoding="async">
+        <div class="aa-hero-badge">
+          <span class="aa-badge-ico" aria-hidden="true">★</span>
+          <span><strong>糖心推荐 · 本周主推</strong>霜月版妆造全流程 42 分钟实录</span>
+        </div>
+      </div>
+    </div>
+    <div class="aa-hero-marquee" aria-hidden="true">
+      <div class="aa-hero-marquee-in">
+        <span>角色还原挑战报名中</span><span>高清 4K 素材下载</span><span>妆造教程每周三更新</span><span>创作者扶持计划</span><span>官方正版认证</span>
+        <span>角色还原挑战报名中</span><span>高清 4K 素材下载</span><span>妆造教程每周三更新</span><span>创作者扶持计划</span><span>官方正版认证</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- S3 视频内容 -->
+  <section class="aa-section" id="aa-videos">
+    <div class="aa-wrap">
+      <div class="aa-sec-head">
+        <div>
+          <span class="aa-eyebrow">Featured Videos</span>
+          <h2 class="aa-h2">精品内容 · <em>聚焦角色还原的每一个细节</em></h2>
+        </div>
+        <p class="aa-sec-desc">安安老师cos雷电将军糖心官方网站每周更新高清原创视频，从定妆到成片全链路公开，帮助你在真实创作里少走弯路。</p>
+      </div>
+
+      <div class="aa-spotlight">
+        <article class="aa-feature">
+          <div class="aa-feature-media">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%232a2158'/%3E%3Cstop offset='1' stop-color='%237a68e0'/%3E%3C/linearGradient%3E%3ClinearGradient id='g2' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23ffd77a'/%3E%3Cstop offset='1' stop-color='%23f2b234'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='450' fill='url(%23g1)'/%3E%3Cg opacity='.5'%3E%3Cpath d='M0 350 Q200 260 400 330 T800 300 L800 450 L0 450 Z' fill='%231a1440'/%3E%3C/g%3E%3Ccircle cx='650' cy='110' r='58' fill='url(%23g2)' opacity='.8'/%3E%3Cg transform='translate(150,90)'%3E%3Ccircle cx='120' cy='90' r='74' fill='%23c9bfff'/%3E%3Cpath d='M120 22 C 82 22 66 62 66 100 C 66 150 96 172 96 200 L 96 280 L 144 280 L 144 200 C 144 172 174 150 174 100 C 174 62 158 22 120 22 Z' fill='%236f60cf'/%3E%3Cpath d='M120 58 C 102 58 94 76 94 98 C 94 122 106 136 120 136 C 134 136 146 122 146 98 C 146 76 138 58 120 58 Z' fill='%23f7e6dc'/%3E%3Cpath d='M96 92 Q120 78 144 92' stroke='%232c2463' stroke-width='4' fill='none'/%3E%3C/g%3E%3Cg fill='%23ffd77a' opacity='.85'%3E%3Ccircle cx='420' cy='80' r='4'/%3E%3Ccircle cx='470' cy='150' r='3'/%3E%3Ccircle cx='380' cy='190' r='3.5'/%3E%3Ccircle cx='540' cy='230' r='4'/%3E%3C/g%3E%3Crect x='40' y='40' width='120' height='22' rx='11' fill='%23ffffff' opacity='.16'/%3E%3C/svg%3E" alt="雷电将军霜月版妆造全流程实录封面，紫色与金色光源交织" width="800" height="450" loading="lazy" decoding="async">
+            <div class="aa-play" aria-hidden="true"><i>▶</i></div>
+            <span class="aa-duration">42:16</span>
+          </div>
+          <div class="aa-feature-body">
+            <div class="aa-feature-meta">
+              <span class="aa-tag aa-tag-gold">本周主推</span>
+              <span class="aa-tag">妆造教程</span>
+              <span>安安老师</span>
+              <span>·</span>
+              <span>2026-11-20</span>
+            </div>
+            <h3 class="aa-h3">《雷电将军·霜月版》整套定妆流程：从底妆到金饰的 9 个关键节点</h3>
+            <p>这条视频把整套定妆拆成可复用的节点：底妆如何做出偏冷的瓷感、眼尾的紫色过渡如何避免脏、金饰的哑光处理与反光区控制。全程无加速，保留失败与重来的镜头，方便你对照自己的进度复现。</p>
+            <div class="aa-feature-foot">
+              <span>播放 128.4 万</span>
+              <span>点赞 3.2 万</span>
+              <span>收藏 2.1 万</span>
+              <span>评论 1468</span>
+            </div>
+            <div class="aa-actions">
+              <button class="aa-act" type="button" data-aa-like>👍 点赞 <b data-aa-like-num>32017</b></button>
+              <button class="aa-act" type="button" data-aa-fav>♡ 收藏</button>
+              <button class="aa-act" type="button" data-aa-copy>复制链接</button>
+              <button class="aa-act" type="button" data-aa-report>反馈</button>
+            </div>
+          </div>
+        </article>
+
+        <div class="aa-vlist">
+          <article class="aa-vitem">
+            <div class="aa-vitem-top">
+              <span class="aa-tag">深度测评</span><span>安安老师</span><span>·</span><span>11-16</span>
+            </div>
+            <h3 class="aa-h3">七款紫色系眼影实测：哪一盘最接近雷电将军的瞳色</h3>
+            <p>同光源同角度对拍，从显色、延展、飞粉与持妆四个维度打分，附一张可打印的对照表。</p>
+            <div class="aa-actions">
+              <button class="aa-act" type="button" data-aa-like>👍 点赞 <b data-aa-like-num>9862</b></button>
+              <button class="aa-act" type="button" data-aa-fav>♡ 收藏</button>
+            </div>
+          </article>
+          <article class="aa-vitem">
+            <div class="aa-vitem-top">
+              <span class="aa-tag aa-tag-pink">创作幕后</span><span>阿绫</span><span>·</span><span>11-14</span>
+            </div>
+            <h3 class="aa-h3">雨天外景怎么拍？一次失败的补拍记录与三次调整</h3>
+            <p>把废片剪进正片，记录灯位、色温与反光板的现场取舍，附带雨天器材清单。</p>
+            <div class="aa-actions">
+              <button class="aa-act" type="button" data-aa-like>👍 点赞 <b data-aa-like-num>6410</b></button>
+              <button class="aa-act" type="button" data-aa-fav>♡ 收藏</button>
+            </div>
+          </article>
+          <article class="aa-vitem">
+            <div class="aa-vitem-top">
+              <span class="aa-tag">人像后期</span><span>暮野</span><span>·</span><span>11-12</span>
+            </div>
+            <h3 class="aa-h3">紫色高光的克制调色：三层曲线还原月下氛围</h3>
+            <p>不用预设，手动分区域处理肤色与服装，附完整参数与可下载的节点工程。</p>
+            <div class="aa-actions">
+              <button class="aa-act" type="button" data-aa-like>👍 点赞 <b data-aa-like-num>5228</b></button>
+              <button class="aa-act" type="button" data-aa-fav>♡ 收藏</button>
+            </div>
+          </article>
+          <article class="aa-vitem">
+            <div class="aa-vitem-top">
+              <span class="aa-tag">人物访谈</span><span>安安老师</span><span>·</span><span>11-09</span>
+            </div>
+            <h3 class="aa-h3">对话道具师小满：一把木刀背后的 37 版打样</h3>
+            <p>从材料选型到重量控制，聊手工道具如何在轻量化与质感之间找到平衡。</p>
+            <div class="aa-actions">
+              <button class="aa-act" type="button" data-aa-like>👍 点赞 <b data-aa-like-num>4189</b></button>
+              <button class="aa-act" type="button" data-aa-fav>♡ 收藏</button>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="aa-grid3" style="margin-top:26px;">
+        <article class="aa-vcard">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 400'%3E%3Cdefs%3E%3ClinearGradient id='c1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23f6dfef'/%3E%3Cstop offset='1' stop-color='%23b7a9ff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='400' fill='url(%23c1)'/%3E%3Cg fill='none' stroke='%236f60cf' stroke-width='3' opacity='.85'%3E%3Cpath d='M110 300 Q180 180 250 250 T390 210'/%3E%3Cpath d='M110 330 Q190 220 260 280 T400 240' opacity='.5'/%3E%3C/g%3E%3Cg fill='%233f358f' opacity='.85'%3E%3Ccircle cx='460' cy='140' r='42'/%3E%3Ccircle cx='520' cy='210' r='24'/%3E%3C/g%3E%3Cpath d='M80 100 h120 v14 h-120 z' fill='%23ffffff' opacity='.5'/%3E%3C/svg%3E" alt="手作道具与妆造工具桌面特写插画，粉紫色调" width="640" height="400" loading="lazy" decoding="async">
+          <div class="aa-vcard-body">
+            <div class="aa-feature-meta"><span class="aa-tag">实用技巧</span><span>安安老师 · 11-07</span></div>
+            <h3 class="aa-h3">假发定型不塌的四个动作，以及一把梳子的重要性</h3>
+            <p>从发根处理到定型喷雾距离，讲清新手最容易忽略的三处细节。</p>
+            <div class="aa-actions">
+              <button class="aa-act" type="button" data-aa-like>👍 <b data-aa-like-num>3311</b></button>
+              <button class="aa-act" type="button" data-aa-fav>♡ 收藏</button>
+            </div>
+          </div>
+        </article>
+        <article class="aa-vcard">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 400'%3E%3Cdefs%3E%3ClinearGradient id='c2' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%23241d4f'/%3E%3Cstop offset='1' stop-color='%234a3ea8'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='400' fill='url(%23c2)'/%3E%3Cg stroke='%23ffd77a' stroke-width='2' opacity='.7'%3E%3Cpath d='M0 320 L160 260 L300 300 L460 220 L640 280'/%3E%3C/g%3E%3Cg fill='%23ffd77a' opacity='.9'%3E%3Crect x='120' y='120' width='10' height='90'/%3E%3Crect x='150' y='90' width='10' height='120'/%3E%3Crect x='180' y='150' width='10' height='60'/%3E%3C/g%3E%3Ccircle cx='500' cy='120' r='54' fill='%23a394f0' opacity='.55'/%3E%3C/svg%3E" alt="夜景灯光布光示意图，深蓝背景与金色光柱" width="640" height="400" loading="lazy" decoding="async">
+          <div class="aa-vcard-body">
+            <div class="aa-feature-meta"><span class="aa-tag">知识科普</span><span>阿绫 · 11-04</span></div>
+            <h3 class="aa-h3">一盏灯也能拍出层次：夜景人像的三段式布光</h3>
+            <p>讲主观视角下的光比判断，附带手机与相机两套机位的参数建议。</p>
+            <div class="aa-actions">
+              <button class="aa-act" type="button" data-aa-like>👍 <b data-aa-like-num>2874</b></button>
+              <button class="aa-act" type="button" data-aa-fav>♡ 收藏</button>
+            </div>
+          </div>
+        </article>
+        <article class="aa-vcard">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 400'%3E%3Cdefs%3E%3ClinearGradient id='c3' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23fdf1d5'/%3E%3Cstop offset='1' stop-color='%23f6dfef'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='400' fill='url(%23c3)'/%3E%3Cg fill='%23c13c7f' opacity='.28'%3E%3Ccircle cx='180' cy='200' r='86'/%3E%3Ccircle cx='460' cy='180' r='62'/%3E%3C/g%3E%3Cg fill='none' stroke='%233f358f' stroke-width='3'%3E%3Cpath d='M340 300 Q400 220 460 260 T580 230'/%3E%3C/g%3E%3Cg fill='%233f358f'%3E%3Ccircle cx='120' cy='110' r='7'/%3E%3Ccircle cx='320' cy='90' r='5'/%3E%3Ccircle cx='520' cy='330' r='8'/%3E%3C/g%3E%3C/svg%3E" alt="角色情绪表达练习示意图，暖粉底色与曲线构图" width="640" height="400" loading="lazy" decoding="async">
+          <div class="aa-vcard-body">
+            <div class="aa-feature-meta"><span class="aa-tag">情感故事</span><span>暮野 · 11-02</span></div>
+            <h3 class="aa-h3">镜头之外的那三秒：一次眼神训练的复盘</h3>
+            <p>把“威严”与“疲惫”两种情绪拆成可执行的面部动作，附练习清单。</p>
+            <div class="aa-actions">
+              <button class="aa-act" type="button" data-aa-like>👍 <b data-aa-like-num>2145</b></button>
+              <button class="aa-act" type="button" data-aa-fav>♡ 收藏</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- S4 专题企划 -->
+  <section class="aa-section" id="aa-topics">
+    <div class="aa-wrap">
+      <div class="aa-sec-head">
+        <div>
+          <span class="aa-eyebrow">Special Projects</span>
+          <h2 class="aa-h2">专题企划 · <em>把一次还原做成一条完整链路</em></h2>
+        </div>
+        <p class="aa-sec-desc">每个专题由安安老师cos雷电将军糖心官方团队策划，围绕角色还原、道具制作与影像表达展开，持续更新，欢迎同好参与共创。</p>
+      </div>
+
+      <div class="aa-topics">
+        <article class="aa-topic aa-topic-wide">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 620 460'%3E%3Cdefs%3E%3ClinearGradient id='w1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%233a2f86'/%3E%3Cstop offset='1' stop-color='%238a7cf0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='620' height='460' fill='url(%23w1)'/%3E%3Cg opacity='.55'%3E%3Ccircle cx='460' cy='120' r='90' fill='%23ffd77a'/%3E%3C/g%3E%3Cg transform='translate(90,140)'%3E%3Cpath d='M120 0 L150 70 L225 78 L168 128 L186 202 L120 164 L54 202 L72 128 L15 78 L90 70 Z' fill='%23f6dfef' opacity='.85'/%3E%3C/g%3E%3Cg stroke='%23ffd77a' stroke-width='2' fill='none' opacity='.7'%3E%3Cpath d='M60 380 Q160 300 280 350 T540 320'/%3E%3C/g%3E%3C/svg%3E" alt="糖心角色还原挑战专题主视觉，星形徽记与紫色光束" width="620" height="460" loading="lazy" decoding="async">
+          <div class="aa-topic-inner">
+            <div class="aa-topic-head">
+              <h3 class="aa-h3">专题一 · 第三届「糖心角色还原挑战」</h3>
+              <span class="aa-topic-status">进行中</span>
+            </div>
+            <p class="aa-sec-desc">面向所有同好的年度企划，鼓励用你自己的方式重新理解角色。作品须为原创正版，官方评审团将从还原度、妆造细节与影像叙事三个维度打分。</p>
+            <ul>
+              <li>报名通道：11 月 18 日至 12 月 20 日，官方投稿入口提交作品链接与创作说明</li>
+              <li>权益：入选作品进入官方网站精品内容库，获得高清素材下载礼包与创作扶持名额</li>
+              <li>评审公布：12 月 30 日直播评审，完整回放将上传至社区投稿专区</li>
+            </ul>
+            <div class="aa-topic-num">已收到投稿 486 份 · 参与创作者 312 位</div>
+            <div class="aa-actions">
+              <button class="aa-act" type="button" data-aa-submit>我要报名</button>
+              <button class="aa-act" type="button" data-aa-copy>复制专题链接</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="aa-topic">
+          <div class="aa-topic-head">
+            <h3 class="aa-h3">专题二 · 妆造拆解实验室</h3>
+            <span class="aa-topic-status">每周更新</span>
+          </div>
+          <p class="aa-sec-desc">用可复现的方式讲清楚每一步，而不是只给出一个结果。</p>
+          <ul>
+            <li>底妆瓷感与冷调的配比方案，附不同肤质的替代路径</li>
+            <li>眼尾紫色过渡的三段式叠涂，避免脏与晕的现场处理</li>
+            <li>金饰哑光处理与高光留白的取舍记录</li>
+          </ul>
+          <div class="aa-topic-num">已更新 26 期 · 平均时长 35 分钟</div>
+          <div class="aa-actions"><button class="aa-act" type="button" data-aa-fav>♡ 追更</button></div>
+        </article>
+
+        <article class="aa-topic">
+          <div class="aa-topic-head">
+            <h3 class="aa-h3">专题三 · 道具与手作档案</h3>
+            <span class="aa-topic-status aa-wip">制作中</span>
+          </div>
+          <p class="aa-sec-desc">从图纸到打磨，记录一件道具被真正做出来的全过程。</p>
+          <ul>
+            <li>木刀轻量化：37 版打样里被淘汰的 31 版长什么样</li>
+            <li>金属件的安全处理与重量分配，长时间拍摄不压手</li>
+            <li>旧台灯改造柔光箱，低成本布光方案实测</li>
+          </ul>
+          <div class="aa-topic-num">预计 12 月上线首期 · 素材已拍摄完成</div>
+          <div class="aa-actions"><button class="aa-act" type="button" data-aa-submit>预约提醒</button></div>
+        </article>
+
+        <article class="aa-topic">
+          <div class="aa-topic-head">
+            <h3 class="aa-h3">专题四 · 创作者同行计划</h3>
+            <span class="aa-topic-status">报名中</span>
+          </div>
+          <p class="aa-sec-desc">面向新人创作者的长期陪伴栏目，从选题到成片给到真实反馈。</p>
+          <ul>
+            <li>每月 6 个孵化名额，获得一对一脚本与剪辑建议</li>
+            <li>优秀作品纳入官方网站推荐位，获得官方蓝标认证</li>
+            <li>社区共创话题投票，决定下月选题方向</li>
+          </ul>
+          <div class="aa-topic-num">累计孵化 74 位创作者 · 投稿 1200+</div>
+          <div class="aa-actions"><button class="aa-act" type="button" data-aa-submit>了解计划</button></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- S7 关键词解析（深度解析） -->
+  <section class="aa-section" id="aa-deep">
+    <div class="aa-wrap">
+      <div class="aa-sec-head">
+        <div>
+          <span class="aa-eyebrow">Keyword Insight</span>
+          <h2 class="aa-h2">关键词解析 · <em>一个角色还原品牌如何被长期理解</em></h2>
+        </div>
+      </div>
+      <div class="aa-deep">
+        <p class="aa-deep-lead">“安安老师cos雷电将军糖心”不只是一个搜索词，它由创作者、角色与栏目三个部分咬合而成。作为官方网站，我们希望把这套理解讲清楚，让你知道每一个视频为什么这样拍，也让你更放心地参与其中。</p>
+
+        <div class="aa-deep-block">
+          <h3 class="aa-h3"><span>01</span>创作者身份：为什么“老师”两个字值得被认真对待</h3>
+          <p>安安老师最早在社区里只是一名分享妆面笔记的普通爱好者。她习惯把失败的步骤也留下来，把眼影飞粉、假发定型失败、灯光过曝这些“不好看”的片段保留在成片里。时间久了，观众发现按她的步骤可以复现结果，于是“老师”这个称呼带着具体的信任含义被叫开。如今安安老师cos雷电将军糖心官方团队把这种习惯制度化：每条教程必须标注工具清单、拍摄光源、所用产品与可替代方案，并在评论区预留四十八小时的答疑窗口。对品牌而言，这不是客套，而是把教学责任落到流程里。</p>
+          <p>企业级生产并不等于丢掉人味。官方团队的共识是：把复杂的部分做扎实，把真实的情绪留出来。所以我们的视频既有分镜表，也有临场改主意的时刻；既有精确到毫米的定妆标记，也有“今天状态不太好，所以改了方案”的坦白。这种双重质感，正是品牌能够持续被信任的底层原因。</p>
+        </div>
+
+        <div class="aa-deep-block">
+          <h3 class="aa-h3"><span>02</span>角色还原：雷电将军为什么难，难在哪里</h3>
+          <p>雷电将军的还原难点集中在三处。第一是气质：这个角色不是靠表情夸张取胜，而是靠极小的面部变化传递威严与疲惫的并存，因此眼部距离、眉形起伏与下颌角度都需要克制；第二是色彩：紫色在不同光源下极易偏红或偏灰，服装的冷紫与金饰的暖金之间需要一条清晰的分界，否则整张画面会显得浑浊；第三是结构：发型的体积感、肩甲的宽度与整体比例会直接影响“气场”，而这三者恰恰最容易被简化。</p>
+          <p>针对这三点，官方内容里安排了从妆面到布光、从道具到后期的完整链路。妆容部分讲清紫色过渡的物理逻辑；布光部分给出主光、轮廓光与环境光的三档参数；后期部分强调分区域处理，避免一键预设把肤色一起拉偏。“糖心”在这里是一个栏目化命名，代表我们对作品甜度与克制的平衡标准——不追求夸张的视觉刺激，而是把角色的复杂感留给观众自己体会。这也解释了为什么关键词中三个部分总是连在一起出现，它们本就是同一套方法论的三个切面。</p>
+        </div>
+
+        <div class="aa-deep-block">
+          <h3 class="aa-h3"><span>03</span>内容生态：从一条视频到一套可持续的社区机制</h3>
+          <p>作为持续运营的垂直领域内容平台，我们做了三件看起来不“爆款”但很重要的事。其一，建立选题库：每月由社区投票决定下月专题，官方只负责把关执行质量；其二，公开数据：播放、点赞、收藏与完播率在创作者后台可见，帮助同好判断内容实效；其三，建立蓝标认证：原创正版作品通过审核后获得标识，官方渠道同步分发，减少盗用与搬运对创作者的伤害。这些机制让“值得信赖”不再只是口号，而是可以被检验的流程。</p>
+          <p>我们也在意关键词之外的长期价值。品牌故事不是一本宣传册，而是不断被更新的档案：哪些教程被反复回看、哪些道具方案被同行借鉴、哪些新人因为一次投稿获得机会。这些记录构成了企业动态的骨架，也构成了社区的温度。用户至上的原则在这里被理解为：把选择权交还给观众与创作者，官方只做基础设施的维护者与品质的把关人。我们相信，真正的影响力来自可复用的方法与可被感知的陪伴，而不是一次性的话题热度。</p>
+        </div>
+
+        <div class="aa-deep-block">
+          <h3 class="aa-h3"><span>04</span>面向未来：让角色还原成为一门被尊重的专业</h3>
+          <p>角色还原长期被误解为“换装拍照”，但在实际创作中，它同时涉及化妆造型、服装工程、灯光摄影、表演表达与后期影像，是一条完整的专业链路。安安老师cos雷电将军糖心官方网站希望推动这件事被更严肃地看待：我们会继续公开制作流程，继续为新人提供可上手的路径，继续与道具师、化妆师、摄影师合作，把不同工种的匠心放到同一张工作台上。今年我们启动了创作者同行计划与年度挑战赛，明年计划开放素材库的分层下载与商用授权说明，让规范的引用和二次创作都有据可依。</p>
+          <p>对观众而言，你可能只是想在周末找一条能安静看完的视频；对创作者而言，你可能正在寻找一个愿意认真回复问题的社区。两种期待我们都记得。正因如此，这个品牌不会追逐短期风向，而会把真实、温暖与力量作为长期标准，让每一次定妆、每一条评论、每一次投稿，都成为内容生态里可以继续生长的一小块土壤。</p>
+        </div>
+
+        <div class="aa-deep-quote">
+          <b>安安老师cos雷电将军糖心</b>官方网站持续更新高清原创内容，欢迎在社区里提出你的疑问与建议。我们相信，把过程讲透，比把结果修得更美更有意义。
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S5 创作者矩阵 -->
+  <section class="aa-section" id="aa-authors">
+    <div class="aa-wrap">
+      <div class="aa-sec-head">
+        <div>
+          <span class="aa-eyebrow">Creators</span>
+          <h2 class="aa-h2">创作者矩阵 · <em>六位长期同行的伙伴</em></h2>
+        </div>
+        <p class="aa-sec-desc">安安老师cos雷电将军糖心官方团队与社区蓝标创作者共同维护内容品质，他们的作品构成了官方网站最稳定的一部分内容生态。</p>
+      </div>
+      <div class="aa-authors">
+        <article class="aa-author">
+          <div class="aa-author-avatar" style="background:linear-gradient(140deg,#5b4fc9,#8a7cf0);">安</div>
+          <div class="aa-author-info">
+            <div class="aa-author-name">安安老师 <span class="aa-tag aa-tag-gold">官方认证</span></div>
+            <div class="aa-author-field">角色还原 · 妆造教学</div>
+            <div class="aa-author-nums"><span>作品 <b>326</b></span><span>粉丝 <b>86.4万</b></span></div>
+            <p>品牌主理人，擅长把复杂的妆面拆成新人能跟着做的步骤。坚持保留失败镜头，认为可复现比好看更重要。长期更新雷电将军系列还原，也在意每次拍摄后与观众的问答往来。</p>
+            <button class="aa-act" type="button" data-aa-author="安安老师">查看档案</button>
+          </div>
+        </article>
+
+        <article class="aa-author">
+          <div class="aa-author-avatar" style="background:linear-gradient(140deg,#c13c7f,#f77ab0);">绫</div>
+          <div class="aa-author-info">
+            <div class="aa-author-name">阿绫 <span class="aa-tag">蓝标创作者</span></div>
+            <div class="aa-author-field">外景拍摄 · 灯光布光</div>
+            <div class="aa-author-nums"><span>作品 <b>188</b></span><span>粉丝 <b>31.7万</b></span></div>
+            <p>擅长在有限设备条件下做出层次，雨天外景与夜景人像是她的招牌方向。视频里会标注灯位图与现场取舍，不回避废片，也愿意把自己的失误当作教材分享给新人。</p>
+            <button class="aa-act" type="button" data-aa-author="阿绫">查看档案</button>
+          </div>
+        </article>
+
+        <article class="aa-author">
+          <div class="aa-author-avatar" style="background:linear-gradient(140deg,#3f358f,#6f60cf);">暮</div>
+          <div class="aa-author-info">
+            <div class="aa-author-name">暮野 <span class="aa-tag">蓝标创作者</span></div>
+            <div class="aa-author-field">人像后期 · 情绪表达</div>
+            <div class="aa-author-nums"><span>作品 <b>142</b></span><span>粉丝 <b>24.9万</b></span></div>
+            <p>前期是自由摄影师，后来专注人像后期与表演训练。喜欢把“威严”拆成下颌角度与呼吸节奏，也喜欢在深夜写长文复盘。她的作品常被同行当作调色参考。</p>
+            <button class="aa-act" type="button" data-aa-author="暮野">查看档案</button>
+          </div>
+        </article>
+
+        <article class="aa-author">
+          <div class="aa-author-avatar" style="background:linear-gradient(140deg,#c98a12,#f2b234);">满</div>
+          <div class="aa-author-info">
+            <div class="aa-author-name">小满道具间 <span class="aa-tag">合作创作者</span></div>
+            <div class="aa-author-field">手作道具 · 服装工程</div>
+            <div class="aa-author-nums"><span>作品 <b>96</b></span><span>粉丝 <b>18.3万</b></span></div>
+            <p>从木工房出身的道具师，关注重量与安全的平衡。为还原系列制作过木刀与肩甲，会公开打样失败的原因。她说作品的可佩戴性，比镜头里的华丽更值得坚持。</p>
+            <button class="aa-act" type="button" data-aa-author="小满道具间">查看档案</button>
+          </div>
+        </article>
+
+        <article class="aa-author">
+          <div class="aa-author-avatar" style="background:linear-gradient(140deg,#2f7a6b,#6bc1a8);">一</div>
+          <div class="aa-author-info">
+            <div class="aa-author-name">一只橘子 <span class="aa-tag">新人创作者</span></div>
+            <div class="aa-author-field">日常记录 · 新手教程</div>
+            <div class="aa-author-nums"><span>作品 <b>54</b></span><span>粉丝 <b>6.8万</b></span></div>
+            <p>从零基础开始记录自己的还原练习，用手机拍摄、用最便宜的工具做造型。她的系列视频被很多新人当作入门路标，评论区常见“跟着做成功了”的反馈。</p>
+            <button class="aa-act" type="button" data-aa-author="一只橘子">查看档案</button>
+          </div>
+        </article>
+
+        <article class="aa-author">
+          <div class="aa-author-avatar" style="background:linear-gradient(140deg,#5a4a8f,#a394f0);">弦</div>
+          <div class="aa-author-info">
+            <div class="aa-author-name">南弦 <span class="aa-tag">合作创作者</span></div>
+            <div class="aa-author-field">音乐现场 · 影像叙事</div>
+            <div class="aa-author-nums"><span>作品 <b>78</b></span><span>粉丝 <b>12.6万</b></span></div>
+            <p>做影像叙事与配乐，擅长用声音把角色情绪托起来。与人合作时常先问“你想让观众记住哪一秒”，再决定镜头与音乐的关系，作品节奏舒缓，适合安静地看。</p>
+            <button class="aa-act" type="button" data-aa-author="南弦">查看档案</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- S6 用户评价（双列短评） -->
+  <section class="aa-section" id="aa-reviews">
+    <div class="aa-wrap">
+      <div class="aa-sec-head">
+        <div>
+          <span class="aa-eyebrow">Community Voice</span>
+          <h2 class="aa-h2">社区口碑 · <em>来自同好的真实反馈</em></h2>
+        </div>
+        <p class="aa-sec-desc">这些评价来自安安老师cos雷电将军糖心官方网站社区与视频评论区，涵盖新手、进阶与专业创作者的不同视角。</p>
+      </div>
+      <div class="aa-reviews">
+        <article class="aa-review">
+          <div class="aa-review-top">
+            <span class="aa-mini-avatar" style="background:#5b4fc9;">林</span>
+            <span class="aa-review-name">林间小鹿</span>
+            <span class="aa-stars" aria-label="评分 5 分">★★★★★</span>
+            <span class="aa-review-time">11-20</span>
+          </div>
+          <p>跟着霜月版的教程做完第一次定妆，眼尾没脏真的是靠那句“少量多次、每次只叠一层”。之前看别的教程总是一步带过，这次终于知道问题出在哪。</p>
+        </article>
+        <article class="aa-review">
+          <div class="aa-review-top">
+            <span class="aa-mini-avatar" style="background:#c13c7f;">糖</span>
+            <span class="aa-review-name">糖霜不苦</span>
+            <span class="aa-stars" aria-label="评分 5 分">★★★★★</span>
+            <span class="aa-review-time">11-19</span>
+          </div>
+          <p>最喜欢的是团队会把失败镜头放出来。看到专业创作者也会重来三次，我这种手残突然就没那么焦虑了，社区氛围真的挺温暖。</p>
+        </article>
+        <article class="aa-review">
+          <div class="aa-review-top">
+            <span class="aa-mini-avatar" style="background:#2f7a6b;">阿</span>
+            <span class="aa-review-name">阿祢的相机</span>
+            <span class="aa-stars" aria-label="评分 4 分">★★★★☆</span>
+            <span class="aa-review-time">11-18</span>
+          </div>
+          <p>布光那期的参数对我帮助很大，尤其是轮廓光距离的建议。小建议：如果可以出一份可下载的灯位 PDF 就更好了，现场看手机不太方便。</p>
+        </article>
+        <article class="aa-review">
+          <div class="aa-review-top">
+            <span class="aa-mini-avatar" style="background:#c98a12;">小</span>
+            <span class="aa-review-name">小满的学徒</span>
+            <span class="aa-stars" aria-label="评分 5 分">★★★★★</span>
+            <span class="aa-review-time">11-17</span>
+          </div>
+          <p>木刀那期看得我起鸡皮疙瘩，37 版打样真的不是营销话术。作为做道具的人，很想说一句：愿意讲失败的人值得被认真对待。</p>
+        </article>
+        <article class="aa-review">
+          <div class="aa-review-top">
+            <span class="aa-mini-avatar" style="background:#3f358f;">夜</span>
+            <span class="aa-review-name">夜航星</span>
+            <span class="aa-stars" aria-label="评分 5 分">★★★★★</span>
+            <span class="aa-review-time">11-15</span>
+          </div>
+          <p>投稿参加挑战赛，三天后收到官方很具体的修改建议，不是套话。那一刻觉得这个平台是真的在认真看作品，会继续投。</p>
+        </article>
+        <article class="aa-review">
+          <div class="aa-review-top">
+            <span class="aa-mini-avatar" style="background:#a394f0;">橙</span>
+            <span class="aa-review-name">橘子汽水</span>
+            <span class="aa-stars" aria-label="评分 4 分">★★★★☆</span>
+            <span class="aa-review-time">11-13</span>
+          </div>
+          <p>内容很扎实，就是单条视频比较长，通勤路上看不太完。希望官方能出分段版或者要点文字版，这样更方便复盘。</p>
+        </article>
+        <article class="aa-review">
+          <div class="aa-review-top">
+            <span class="aa-mini-avatar" style="background:#5a4a8f;">弦</span>
+            <span class="aa-review-name">南弦的耳朵</span>
+            <span class="aa-stars" aria-label="评分 5 分">★★★★★</span>
+            <span class="aa-review-time">11-11</span>
+          </div>
+          <p>作为合作创作者，最满意的是版权与授权的说明写得很清楚，引用和二次创作的边界明确，合作起来少了很多沟通成本。</p>
+        </article>
+        <article class="aa-review">
+          <div class="aa-review-top">
+            <span class="aa-mini-avatar" style="background:#7a68e0;">初</span>
+            <span class="aa-review-name">初雪未落</span>
+            <span class="aa-stars" aria-label="评分 5 分">★★★★★</span>
+            <span class="aa-review-time">11-09</span>
+          </div>
+          <p>从路人到每周追更，最大的感受是“被陪伴”。不是那种热闹的陪伴，而是每次看完一条视频都觉得可以再练一会儿，明天再来。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- S7 辅助区：榜单 + 企业动态 + FAQ + 合作 -->
+  <section class="aa-section" id="aa-news">
+    <div class="aa-wrap">
+      <div class="aa-sec-head">
+        <div>
+          <span class="aa-eyebrow">Data &amp; Updates</span>
+          <h2 class="aa-h2">数据榜单 · <em>企业动态与内容更新</em></h2>
+        </div>
+        <p class="aa-sec-desc">热度榜每周一更新，企业动态与内容更新同步发布于官方网站，方便你快速了解安安老师cos雷电将军糖心的最新进展。</p>
+      </div>
+
+      <div class="aa-split">
+        <div class="aa-rank">
+          <h3 class="aa-h3" style="margin-bottom:10px;">本周热度榜 · 官网社区</h3>
+          <ol>
+            <li><span class="aa-rank-no">1</span><span class="aa-rank-title">《雷电将军·霜月版》整套定妆流程</span><span class="aa-rank-num">128.4万</span></li>
+            <li><span class="aa-rank-no">2</span><span class="aa-rank-title">七款紫色系眼影实测</span><span class="aa-rank-num">76.2万</span></li>
+            <li><span class="aa-rank-no">3</span><span class="aa-rank-title">雨天外景怎么拍：失败复拍记录</span><span class="aa-rank-num">61.8万</span></li>
+            <li><span class="aa-rank-no">4</span><span class="aa-rank-title">紫色高光的克制调色</span><span class="aa-rank-num">52.3万</span></li>
+            <li><span class="aa-rank-no">5</span><span class="aa-rank-title">假发定型不塌的四个动作</span><span class="aa-rank-num">44.9万</span></li>
+            <li><span class="aa-rank-no">6</span><span class="aa-rank-title">一把木刀背后的 37 版打样</span><span class="aa-rank-num">39.5万</span></li>
+          </ol>
+        </div>
+
+        <div class="aa-timeline">
+          <h3 class="aa-h3" style="margin-bottom:12px;">企业动态 · 官方发布</h3>
+          <ul>
+            <li><time>2026-11-20</time>《雷电将军·霜月版》妆造全流程上线，同步开放高清素材下载。</li>
+            <li><time>2026-11-18</time>第三届「糖心角色还原挑战」报名开启，投稿入口与评审规则公布。</li>
+            <li><time>2026-11-15</time>高清扫街花絮下载包更新，附带灯光与分镜方案文档。</li>
+            <li><time>2026-11-12</time>官方打假声明发布：认准官方网站与蓝标认证创作者。</li>
+            <li><time>2026-11-08</time>创作者同行计划第四期结营，6 位创作者完成孵化。</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="aa-faq" id="aa-faq" style="margin-top:26px;">
+        <h2 class="aa-h2" style="grid-column:1/-1;font-size:20px;margin-bottom:4px;">常见问题 · FAQ</h2>
+        <details open>
+          <summary>投稿需要满足哪些要求？</summary>
+          <p>作品须为原创正版，不接受搬运与盗用。需提供成片链接、创作说明与素材来源，角色衍生内容请注明原作信息。通过审核后进入官方网站精品内容库。</p>
+        </details>
+        <details>
+          <summary>教程里的产品可以替换吗？</summary>
+          <p>可以。每条教程都会给出替代方案与效果差异说明，例如不同肤质的底妆配比、不同预算的眼影盘选择。我们更希望你能按自己的条件做出来。</p>
+        </details>
+        <details>
+          <summary>素材下载包包含什么？</summary>
+          <p>包含高清花絮、分镜表、灯位示意图与后期节点工程说明，部分栏目附带可商用授权说明。下载包仅供学习与个人创作，禁止二次售卖。</p>
+        </details>
+        <details>
+          <summary>如何获得蓝标认证？</summary>
+          <p>持续发布原创作品并遵守社区规范，即可在创作者后台提交认证申请。审核维度包括原创性、内容质量与社区互动记录，通常 5 个工作日内给出结果。</p>
+        </details>
+        <details>
+          <summary>挑战赛评审标准是什么？</summary>
+          <p>按还原度、妆造细节与影像叙事三个维度综合打分，其中影像叙事看重表达是否成立，而非器材价格。评审团由官方团队与蓝标创作者共同组成。</p>
+        </details>
+        <details>
+          <summary>可以约拍或商业合作吗？</summary>
+          <p>可以。请在投稿入口选择“商业合作”类型，注明用途、周期与预算范围。官方会在 3 个工作日内回复，合作内容均需签署授权说明。</p>
+        </details>
+      </div>
+
+      <div class="aa-partners" aria-label="合作品牌与伙伴">
+        <div class="aa-partner">星野影像<small>器材支持</small></div>
+        <div class="aa-partner">木马工作室<small>道具协作</small></div>
+        <div class="aa-partner">澄色灯光<small>棚拍合作</small></div>
+        <div class="aa-partner">纸上剧场<small>内容共创</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S7 辅助区：投稿 CTA -->
+  <section class="aa-section" id="aa-submit" style="padding-top:0;">
+    <div class="aa-wrap">
+      <div class="aa-cta">
+        <div>
+          <h2>把你的还原作品，放进官方内容生态</h2>
+          <p>安安老师cos雷电将军糖心官方网站长期开放投稿与共创通道。上传作品、参与挑战、下载素材、获取攻略，都从这里开始。我们提供真实反馈，也提供被看见的机会。</p>
+        </div>
+        <div class="aa-cta-actions">
+          <button class="aa-btn aa-btn-primary" type="button" data-aa-submit>立即投稿</button>
+          <button class="aa-btn aa-btn-ghost" type="button" data-aa-share-open>分享本页</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- S8 页脚 -->
+<footer class="aa-footer">
+  <div class="aa-wrap">
+    <div class="aa-footer-grid">
+      <div>
+        <div class="aa-footer-brand"><span class="aa-brand-mark">安</span>安安老师 · 糖心影像</div>
+        <p>安安老师cos雷电将军糖心官方网站，专注角色还原与妆造教学的原创视频品牌。以企业级制作标准持续运营，坚持正版高清、真实表达与用户至上，愿与你长期陪伴、共同成长。</p>
+      </div>
+      <div>
+        <h3>内容栏目</h3>
+        <ul>
+          <li><a href="#aa-videos">精品内容</a></li>
+          <li><a href="#aa-topics">专题企划</a></li>
+          <li><a href="#aa-deep">关键词解析</a></li>
+          <li><a href="#aa-authors">创作者矩阵</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>社区与支持</h3>
+        <ul>
+          <li><a href="#aa-reviews">社区口碑</a></li>
+          <li><a href="#aa-news">企业动态</a></li>
+          <li><a href="#aa-faq">常见问题</a></li>
+          <li><a href="#aa-submit">投稿与合作</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>官方说明</h3>
+        <ul>
+          <li>原创正版内容，禁止搬运</li>
+          <li>素材下载仅限学习与个人创作</li>
+          <li>蓝标认证由官方团队审核</li>
+          <li>商业合作请走投稿入口</li>
+        </ul>
+      </div>
+    </div>
+    <div class="aa-footer-bottom">
+      <span>© 2026 安安老师cos雷电将军糖心 官方网站 · 版权所有 · 持续运营中</span>
+      <span>备案号：沪ICP备2026018742号-3 · 内容均标注来源与授权</span>
+    </div>
+  </div>
+</footer>
+
+<div class="aa-toast" id="aaToast" role="status" aria-live="polite"></div>
+
+<button class="aa-totop" id="aaToTop" type="button" aria-label="回到顶部">
+  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
+</button>
+
+<!-- 弹窗：通用 -->
+<div class="aa-modal" id="aaModal" role="dialog" aria-modal="true" aria-labelledby="aaModalTitle">
+  <div class="aa-modal-card">
+    <div class="aa-modal-head">
+      <h3 id="aaModalTitle">提示</h3>
+      <button class="aa-modal-close" id="aaModalClose" type="button" aria-label="关闭弹窗">✕</button>
+    </div>
+    <div id="aaModalBody"></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var toastEl = document.getElementById('aaToast');
+  var toastTimer = null;
+  function toast(msg){
+    if(!toastEl) return;
+    toastEl.textContent = msg;
+    toastEl.classList.add('is-show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('is-show'); }, 2200);
+  }
+
+  /* 移动端导航折叠 */
+  var navToggle = document.getElementById('aaNavToggle');
+  var nav = document.getElementById('aaNav');
+  if(navToggle && nav){
+    navToggle.addEventListener('click', function(){
+      var open = nav.classList.toggle('is-open');
+      navToggle.classList.toggle('is-open', open);
+      navToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      navToggle.setAttribute('aria-label', open ? '收起导航' : '展开导航');
+    });
+    nav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A' && window.innerWidth <= 820){
+        nav.classList.remove('is-open');
+        navToggle.classList.remove('is-open');
+        navToggle.setAttribute('aria-expanded','false');
+      }
+    });
+  }
+
+  /* 公告轮播 */
+  var noticeItems = Array.prototype.slice.call(document.querySelectorAll('.aa-notice-item'));
+  var noticeIndex = 0;
+  if(noticeItems.length > 1){
+    setInterval(function(){
+      noticeItems[noticeIndex].classList.remove('is-active');
+      noticeIndex = (noticeIndex + 1) % noticeItems.length;
+      noticeItems[noticeIndex].classList.add('is-active');
+    }, 4600);
+  }
+
+  /* 搜索筛选反馈 */
+  var searchInput = document.getElementById('aaSearchInput');
+  var searchResult = document.getElementById('aaSearchResult');
+  var searchData = [
+    {t:'《雷电将军·霜月版》整套定妆流程', h:'#aa-videos'},
+    {t:'七款紫色系眼影实测与对照表', h:'#aa-videos'},
+    {t:'雨天外景怎么拍：失败复拍记录', h:'#aa-videos'},
+    {t:'紫色高光的克制调色三层曲线', h:'#aa-videos'},
+    {t:'假发定型不塌的四个动作', h:'#aa-videos'},
+    {t:'闪电将军道具木刀 37 版打样', h:'#aa-topics'},
+    {t:'安安全老师妆造拆解实验室', h:'#aa-topics'},
+    {t:'糖心角色还原挑战报名规则', h:'#aa-topics'},
+    {t:'安安老师创作者档案', h:'#aa-authors'},
+    {t:'企业动态与内容更新日志', h:'#aa-news'},
+    {t:'投稿入口与商业合作说明', h:'#aa-submit'}
+  ];
+  function renderSearch(kw){
+    if(!searchResult) return;
+    var key = (kw || '').trim().toLowerCase();
+    if(!key){
+      searchResult.classList.remove('is-open');
+      searchResult.innerHTML = '';
+      return;
+    }
+    var hits = searchData.filter(function(it){
+      return it.t.toLowerCase().indexOf(key) > -1;
+    }).slice(0,6);
+    var html = '';
+    if(hits.length){
+      html = hits.map(function(it){
+        return '<li><a href="' + it.h + '">' + it.t + '</a></li>';
+      }).join('');
+    }else{
+      html = '<li class="aa-sr-empty">没有匹配内容，试试「眼影」「布光」「投稿」等关键词。</li>';
+    }
+    searchResult.innerHTML = html;
+    searchResult.classList.add('is-open');
+  }
+  if(searchInput){
+    searchInput.addEventListener('input', function(){ renderSearch(this.value); });
+    searchInput.addEventListener('keydown', function(e){
+      if(e.key === 'Enter'){
+        e.preventDefault();
+        var v = this.value.trim();
+        if(v) toast('已为你筛选与「' + v + '」相关的内容');
+        else toast('请输入关键词后再搜索');
+      }
+    });
+  }
+  document.addEventListener('click', function(e){
+    if(searchResult && !e.target.closest('.aa-search')){
+      searchResult.classList.remove('is-open');
+    }
+  });
+  if(searchResult){
+    searchResult.addEventListener('click', function(e){
+      if(e.target.tagName === 'A'){
+        searchResult.classList.remove('is-open');
+      }
+    });
+  }
+
+  /* 点赞 +1/-1 */
+  document.addEventListener('click', function(e){
+    var btn = e.target.closest('[data-aa-like]');
+    if(!btn) return;
+    e.preventDefault();
+    var numEl = btn.querySelector('[data-aa-like-num]');
+    var liked = btn.classList.toggle('is-fav');
+    if(numEl){
+      var base = parseInt(numEl.textContent.replace(/[^\d]/g,''), 10) || 0;
+      numEl.textContent = liked ? (base + 1) : Math.max(0, base - 1);
+    }
+    toast(liked ? '已点赞，感谢你的支持' : '已取消点赞');
+  });
+
+  /* 收藏切换 */
+  document.addEventListener('click', function(e){
+    var btn = e.target.closest('[data-aa-fav]');
+    if(!btn) return;
+    e.preventDefault();
+    var on = btn.classList.toggle('is-fav');
+    btn.textContent = on ? '♥ 已收藏' : '♡ 收藏';
+    toast(on ? '已加入收藏，可在个人中心查看' : '已取消收藏');
+  });
+
+  /* 复制链接 */
+  function copyText(text, okMsg){
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){
+        toast(okMsg || '链接已复制');
+      }).catch(function(){
+        toast('复制失败，请手动复制');
+      });
+    }else{
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      try{ document.execCommand('copy'); toast(okMsg || '链接已复制'); }
+      catch(err){ toast('复制失败，请手动复制'); }
+      document.body.removeChild(ta);
+    }
+  }
+  document.addEventListener('click', function(e){
+    var btn = e.target.closest('[data-aa-copy]');
+    if(!btn) return;
+    e.preventDefault();
+    var anchor = btn.closest('article, section');
+    var title = anchor ? (anchor.querySelector('.aa-h3') || {}).textContent || '' : '';
+    var href = window.location.href.split('#')[0] + (anchor && anchor.id ? '#' + anchor.id : '');
+    copyText(title ? title.trim() + ' ' + href : href, '链接已复制，欢迎分享');
+  });
+
+  /* 弹窗 */
+  var modal = document.getElementById('aaModal');
+  var modalTitle = document.getElementById('aaModalTitle');
+  var modalBody = document.getElementById('aaModalBody');
+  var modalClose = document.getElementById('aaModalClose');
+  var lastFocus = null;
+
+  function openModal(title, html){
+    if(!modal) return;
+    lastFocus = document.activeElement;
+    modalTitle.textContent = title;
+    modalBody.innerHTML = html;
+    modal.classList.add('is-open');
+    document.body.style.overflow = 'hidden';
+    if(modalClose) modalClose.focus();
+  }
+  function closeModal(){
+    if(!modal) return;
+    modal.classList.remove('is-open');
+    document.body.style.overflow = '';
+    if(lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+  if(modalClose) modalClose.addEventListener('click', closeModal);
+  if(modal) modal.addEventListener('click', function(e){
+    if(e.target === modal) closeModal();
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape' && modal && modal.classList.contains('is-open')) closeModal();
+  });
+
+  /* 分享弹窗 */
+  document.addEventListener('click', function(e){
+    var btn = e.target.closest('[data-aa-share-open], #aaHeroShare');
+    if(!btn) return;
+    e.preventDefault();
+    openModal('分享给同好', '' +
+      '<p>把安安老师cos雷电将军糖心的官方内容分享给朋友，一起参与本轮专题与挑战。</p>' +
+      '<div class="aa-share-list">' +
+      '<button type="button" data-aa-share="wechat">微信</button>' +
+      '<button type="button" data-aa-share="weibo">微博</button>' +
+      '<button type="button" data-aa-share="qq">QQ</button>' +
+      '<button type="button" data-aa-share="copy">复制链接</button>' +
+      '</div>' +
+      '<div class="aa-modal-actions"><button class="aa-btn aa-btn-soft" type="button" data-aa-share="copy">复制页面链接</button></div>');
+  });
+  document.addEventListener('click', function(e){
+    var btn = e.target.closest('[data-aa-share]');
+    if(!btn) return;
+    var type = btn.getAttribute('data-aa-share');
+    if(type === 'copy'){
+      copyText(window.location.href, '页面链接已复制');
+    }else if(type === 'wechat'){
+      toast('请打开微信「扫一扫」或粘贴链接分享给好友');
+    }else if(type === 'weibo'){
+      toast('分享到微博的入口已在官方账号页同步开放');
+    }else{
+      toast('分享入口已复制提示，请粘贴给好友');
+    }
+  });
+
+  /* 投稿弹窗 */
+  document.addEventListener('click', function(e){
+    var btn = e.target.closest('[data-aa-submit], #aaSubmitBtn');
+    if(!btn) return;
+    e.preventDefault();
+    openModal('投稿与合作', '' +
+      '<p>欢迎向安安老师cos雷电将军糖心官方网站投递原创作品或发起商业合作。请准备作品链接、创作说明与素材来源。</p>' +
+      '<p>投稿方向：角色还原成片、妆造教程、道具制作、影像叙事短片。通过审核的作品将进入官方网站精品内容库，并获得蓝标认证申请资格。</p>' +
+      '<p>商业合作请注明用途、周期与预算范围，我们会在 3 个工作日内回复。</p>' +
+      '<div class="aa-modal-actions">' +
+      '<button class="aa-btn aa-btn-primary" type="button" data-aa-submit-confirm>提交投稿意向</button>' +
+      '<button class="aa-btn aa-btn-ghost" type="button" data-aa-copy>复制投稿说明</button>' +
+      '</div>');
+  });
+  document.addEventListener('click', function(e){
+    var btn = e.target.closest('[data-aa-submit-confirm]');
+    if(!btn) return;
+    toast('投稿意向已记录，请留意官方回复');
+    closeModal();
+  });
+
+  /* 作者档案弹窗 */
+  var authorInfo = {
+    '安安老师':'品牌主理人，角色还原与妆造教学方向。作品 326 条，粉丝 86.4 万。坚持公开失败镜头与可复现步骤，持续更新雷电将军系列还原，并负责官方网站内容品质把关。',
+    '阿绫':'蓝标创作者，外景拍摄与灯光布光方向。作品 188 条，粉丝 31.7 万。擅长有限设备条件下的层次塑造，视频内标注灯位图与现场取舍，雨天与夜景题材口碑突出。',
+    '暮野':'蓝标创作者，人像后期与情绪表达方向。作品 142 条，粉丝 24.9 万。把表演训练拆成可执行动作，调色作品常被同行引用，喜欢写长文复盘创作过程。',
+    '小满道具间':'合作创作者，手作道具与服装工程方向。作品 96 条，粉丝 18.3 万。木工出身，关注重量与安全平衡，公开打样失败原因，坚持可佩戴性优先。',
+    '一只橘子':'新人创作者，日常记录与新手教程方向。作品 54 条，粉丝 6.8 万。用手机与低成本工具记录还原练习，系列视频被新人当作入门路标，评论区互动活跃。',
+    '南弦':'合作创作者，音乐现场与影像叙事方向。作品 78 条，粉丝 12.6 万。擅长用声音托起角色情绪，合作时先确定“观众要记住的那一秒”，作品节奏舒缓。'
+  };
+  document.addEventListener('click', function(e){
+    var btn = e.target.closest('[data-aa-author]');
+    if(!btn) return;
+    e.preventDefault();
+    var name = btn.getAttribute('data-aa-author');
+    var info = authorInfo[name] || '这位创作者正在完善档案，欢迎关注其最新作品。';
+    openModal(name + ' · 创作者档案', '<p>' + info + '</p><div class="aa-modal-actions"><button class="aa-btn aa-btn-soft" type="button" data-aa-share-open>分享档案</button></div>');
+  });
+
+  /* 举报反馈 */
+  document.addEventListener('click', function(e){
+    var btn = e.target.closest('[data-aa-report]');
+    if(!btn) return;
+    e.preventDefault();
+    openModal('反馈与举报', '' +
+      '<p>如发现搬运、盗用或不当内容，欢迎反馈。请尽量提供作品标题与具体问题，官方团队会在 48 小时内核查。</p>' +
+      '<p>我们也接受内容建议，例如希望增加哪类教程、是否需要分段版或文字要点版。</p>' +
+      '<div class="aa-modal-actions"><button class="aa-btn aa-btn-primary" type="button" data-aa-report-send>提交反馈</button></div>');
+  });
+  document.addEventListener('click', function(e){
+    var btn = e.target.closest('[data-aa-report-send]');
+    if(!btn) return;
+    toast('反馈已收到，感谢你帮助社区保持品质');
+    closeModal();
+  });
+
+  /* 数字滚动 */
+  var counters = document.querySelectorAll('[data-aa-count]');
+  function animateCount(el){
+    var target = parseInt(el.getAttribute('data-aa-count'), 10);
+    if(isNaN(target)) return;
+    var suffix = el.querySelector('small') ? el.querySelector('small').outerHTML : '';
+    var start = 0, dur = 1300, t0 = null;
+    function step(ts){
+      if(!t0) t0 = ts;
+      var p = Math.min((ts - t0) / dur, 1);
+      var eased = 1 - Math.pow(1 - p, 3);
+      var val = Math.round(start + (target - start) * eased);
+      el.innerHTML = val.toLocaleString('en-US') + suffix;
+      if(p < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+  if('IntersectionObserver' in window && counters.length){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          animateCount(en.target);
+          io.unobserve(en.target);
+        }
+      });
+    }, {threshold:.4});
+    counters.forEach(function(c){ io.observe(c); });
+  }else{
+    counters.forEach(animateCount);
+  }
+
+  /* 回到顶部 */
+  var toTop = document.getElementById('aaToTop');
+  function onScroll(){
+    if(!toTop) return;
+    if(window.scrollY > 520) toTop.classList.add('is-show');
+    else toTop.classList.remove('is-show');
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+  if(toTop){
+    toTop.addEventListener('click', function(){
+      window.scrollTo({top:0, behavior:'smooth'});
+    });
+  }
+})();
+</script>
+</body>
+          </html>
